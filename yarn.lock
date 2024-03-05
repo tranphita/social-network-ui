@@ -1439,6 +1439,25 @@
   resolved "https://registry.yarnpkg.com/@fastify/busboy/-/busboy-2.1.1.tgz#b9da6a878a371829a0502c9b6c1c143ef6663f4d"
   integrity sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==
 
+"@ionic/angular@^7.7.3":
+  version "7.7.3"
+  resolved "https://registry.yarnpkg.com/@ionic/angular/-/angular-7.7.3.tgz#f59403402bb8d69f8c509a6fe4c20db76ccb75b6"
+  integrity sha512-PddWNoF+VgiHJ8iYXK7NojjfEOILB6VzYvOaZ4Lgs5jIKtiDhl2el+doVGauYjWplD8P4CUA+jndMVo3Y/AGyA==
+  dependencies:
+    "@ionic/core" "7.7.3"
+    ionicons "^7.0.0"
+    jsonc-parser "^3.0.0"
+    tslib "^2.3.0"
+
+"@ionic/core@7.7.3":
+  version "7.7.3"
+  resolved "https://registry.yarnpkg.com/@ionic/core/-/core-7.7.3.tgz#f2c4965fd70784f7ab35eedbe1ab9e6ddb21756e"
+  integrity sha512-DSv6DPuiLU2MXsgDAXKFJW5OXxT7EyPy2jcQf03RcWooWeFryy979mqotPw7BgUuWt/fVGuz2tl3peAJGSqmDQ==
+  dependencies:
+    "@stencil/core" "^4.12.2"
+    ionicons "^7.2.2"
+    tslib "^2.1.0"
+
 "@isaacs/cliui@^8.0.2":
   version "8.0.2"
   resolved "https://registry.yarnpkg.com/@isaacs/cliui/-/cliui-8.0.2.tgz#b37667b7bc181c168782259bab42474fbf52b550"
@@ -1748,6 +1767,11 @@
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@socket.io/component-emitter/-/component-emitter-3.1.0.tgz#96116f2a912e0c02817345b3c10751069920d553"
   integrity sha512-+9jVqKhRSpsc591z5vX+X5Yyw+he/HCB4iQ/RYxw35CEPaY1gnsNE43nf9n9AaYjAQrTiI/mOwKUKdUs9vf7Xg==
+
+"@stencil/core@^4.0.3", "@stencil/core@^4.12.2":
+  version "4.12.4"
+  resolved "https://registry.yarnpkg.com/@stencil/core/-/core-4.12.4.tgz#4db373675351d72b8bb1fe8061014e2dc50a50f0"
+  integrity sha512-KrwoXu9J1loWSvQQReilGPkt6/dCH/x5eTBDecCBPclz7vxUM13Iw9almBIffEpurk/kaMAglH0G7sAF/A2y1A==
 
 "@tufjs/canonical-json@2.0.0":
   version "2.0.0"
@@ -2169,6 +2193,14 @@ ajv@^6.12.5:
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
+
+angular-auth-oidc-client@^17.0.0:
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/angular-auth-oidc-client/-/angular-auth-oidc-client-17.0.0.tgz#ee4a05a5f6d237ffb885b895e6872f8e06d8409f"
+  integrity sha512-WjQDwMJ+XpoCTht5wn8XgR1MFW+IykDvEOZNQCbpxzNzR1312hv6nPSStYQA9Jtpj3T6fZFFQsn06jfFwDE7WQ==
+  dependencies:
+    rfc4648 "^1.5.0"
+    tslib "^2.3.0"
 
 ansi-colors@4.1.3:
   version "4.1.3"
@@ -3802,6 +3834,13 @@ inquirer@9.2.14:
     strip-ansi "^6.0.1"
     wrap-ansi "^6.2.0"
 
+ionicons@^7.0.0, ionicons@^7.2.2:
+  version "7.2.2"
+  resolved "https://registry.yarnpkg.com/ionicons/-/ionicons-7.2.2.tgz#b28140bd8e81ec4eea2d1ee78a5e7cfca9f14d3b"
+  integrity sha512-I3iYIfc9Q9FRifWyFSwTAvbEABWlWY32i0sAVDDPGYnaIZVugkLCZFbEcrphW6ixVPg8tt1oLwalo/JJwbEqnA==
+  dependencies:
+    "@stencil/core" "^4.0.3"
+
 ip-address@^9.0.5:
   version "9.0.5"
   resolved "https://registry.yarnpkg.com/ip-address/-/ip-address-9.0.5.tgz#117a960819b08780c3bd1f14ef3c1cc1d3f3ea5a"
@@ -4070,7 +4109,7 @@ json5@^2.1.2, json5@^2.2.3:
   resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.3.tgz#78cd6f1a19bdc12b73db5ad0c61efd66c1e29283"
   integrity sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==
 
-jsonc-parser@3.2.1:
+jsonc-parser@3.2.1, jsonc-parser@^3.0.0:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/jsonc-parser/-/jsonc-parser-3.2.1.tgz#031904571ccf929d7670ee8c547545081cb37f1a"
   integrity sha512-AilxAyFOAcK5wA1+LeaySVBrHsGQvUFCDWXKpZjzaL0PqW+xfBOttn8GNtWKFWqneyMZj41MWF9Kl6iPWLwgOA==
@@ -5299,6 +5338,11 @@ reusify@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/reusify/-/reusify-1.0.4.tgz#90da382b1e126efc02146e90845a88db12925d76"
   integrity sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==
+
+rfc4648@^1.5.0:
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/rfc4648/-/rfc4648-1.5.3.tgz#e62b81736c10361ca614efe618a566e93d0b41c0"
+  integrity sha512-MjOWxM065+WswwnmNONOT+bD1nXzY9Km6u3kzvnx8F8/HXGZdz3T6e6vZJ8Q/RIMUSp/nxqjH3GwvJDy8ijeQQ==
 
 rfdc@^1.3.0:
   version "1.3.1"
